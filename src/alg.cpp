@@ -28,7 +28,7 @@ double expn(double x, uint16_t count) {
   double e = 0;
   int i = 0;
   while (i <= count) {
-    e += calcItem(x,i);
+    e += calcItem(x, i);
     i++;
   }
   return e;
